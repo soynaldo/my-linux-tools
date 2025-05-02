@@ -13,7 +13,9 @@ sudo apt install -y \
     neofetch \
     vim \
     jq \
-    kicad
+    kicad \
+    arp-scan \
+    net-tools
 
 # Install snap
 sudo apt install snapd
