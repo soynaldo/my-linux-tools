@@ -29,6 +29,7 @@ chmod +x my-linux-tools.sh
 Tambien puedes clonarlo y ejecutarlo directamente ejecutando:
 
 ```bash
+sudo apt install curl
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/soynaldo/my-linux-tools/master/linux_tools.sh)"
 ```
 
