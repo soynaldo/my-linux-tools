@@ -12,6 +12,9 @@ sudo snap install telegram-desktop
 sudo snap install vlc
 sudo snap install obs-studio
 
+# Install VS code extensions
+xargs -n 1 code --install-extension < vscode-extensions.txt
+
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
